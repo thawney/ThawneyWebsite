@@ -1007,7 +1007,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-sZiszXdXEV button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1165,11 +1165,12 @@ a {
 .cid-sZjX0LSzoY .mbr-section-subtitle {
   color: #ffe161;
 }
-.cid-sZiszXdXEV .navbar-dropdown {
-  position: relative !important;
+.cid-sZiszXdXEV {
+  z-index: 1000;
+  width: 100%;
 }
-.cid-sZiszXdXEV .navbar-dropdown {
-  position: absolute !important;
+.cid-sZiszXdXEV nav.navbar {
+  position: fixed;
 }
 .cid-sZiszXdXEV .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1240,7 +1241,7 @@ a {
 }
 .cid-sZiszXdXEV .dropdown-menu,
 .cid-sZiszXdXEV .navbar.opened {
-  background: #232323 !important;
+  background: #98dee8 !important;
 }
 .cid-sZiszXdXEV .nav-item:focus,
 .cid-sZiszXdXEV .nav-link:focus {
@@ -1274,7 +1275,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(35, 35, 35, 0);
+  background: rgba(152, 222, 232, 0);
 }
 .cid-sZiszXdXEV .navbar.opened {
   transition: all 0.3s;
@@ -1419,7 +1420,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-sZiszXdXEV .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #232323;
+  background: #98dee8;
 }
 .cid-sZiszXdXEV .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1492,6 +1493,7 @@ a {
 }
 .cid-sZiszXdXEV .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sZiszXdXEV a.nav-link {
   display: flex;
@@ -1893,7 +1895,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-sZiszXdXEV button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2322,7 +2324,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-sZiszXdXEV button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2848,7 +2850,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-sZiszXdXEV button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -3559,7 +3561,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-sZlDKna11B button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -4031,7 +4033,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-sZlKCRrPCg button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -4503,7 +4505,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-sZlRQd4WvF button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
