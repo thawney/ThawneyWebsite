@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Thawney",
-    "currentPage": "about.html",
+    "currentPage": "404.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -78,7 +78,7 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "cookiesAlert": false,
     "gdpr": false
   },
