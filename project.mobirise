@@ -79,7 +79,7 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "cookiesAlert": false,
     "gdpr": false
   },
