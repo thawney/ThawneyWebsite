@@ -85,17 +85,20 @@
     "spellingSwitch": true,
     "site_lang": "en",
     "screenshot": "screenshot.png",
-    "modified": "2022-05-27T17:18:37.379Z"
+    "modified": "2022-05-27T17:18:37.379Z",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Home - Thawney",
+        "meta_descr": "Hi I'm Thawney. I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK!",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png"
       },
       "components": [
         {
@@ -646,8 +649,10 @@
     },
     "terms.html": {
       "settings": {
-        "title": "Terms Of Use",
-        "order": 6
+        "title": "Terms Of Use - Thawney",
+        "order": 6,
+        "meta_descr": "Hi I'm Thawney. I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK!",
+        "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png"
       },
       "components": [
         {
@@ -1119,8 +1124,10 @@
     },
     "privacy.html": {
       "settings": {
-        "title": "Privacy Policy",
-        "order": 7
+        "title": "Privacy Policy - Thawney",
+        "order": 7,
+        "meta_descr": "Hi I'm Thawney. I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK!",
+        "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png"
       },
       "components": [
         {
@@ -1593,8 +1600,10 @@
     },
     "projects.html": {
       "settings": {
-        "title": "Projects",
-        "order": 5
+        "title": "Projects - Thawney",
+        "order": 5,
+        "meta_descr": "Hi I'm Thawney. I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK!",
+        "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png"
       },
       "components": [
         {
