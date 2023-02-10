@@ -21,7 +21,7 @@ body {
   font-size: 3.75rem;
 }
 .display-4 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'AnonymousPro-Regular';
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -37,7 +37,7 @@ body {
   font-size: 2rem;
 }
 .display-7 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'AnonymousPro-Regular';
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -584,7 +584,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Jost', sans-serif;
+  font-family: 'AnonymousPro-Regular';
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -598,7 +598,7 @@ a:hover {
   border-color: #ffc60a !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Jost', sans-serif;
+  font-family: 'AnonymousPro-Regular';
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;

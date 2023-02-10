@@ -19,9 +19,9 @@
         "display2Size": 3,
         "display5Font": "Modak",
         "display5Size": "1.6",
-        "display7Font": "Jost",
+        "display7Font": "AnonymousPro-Regular",
         "display7Size": 1.2,
-        "display4Font": "Jost",
+        "display4Font": "AnonymousPro-Regular",
         "display4Size": 1.1,
         "isRoundedButtons": false,
         "isGhostButtonBorder": true,
@@ -52,13 +52,19 @@
         "css": "'Archivo Black', sans-serif",
         "name": "Archivo Black",
         "url": "https://fonts.googleapis.com/css?family=Archivo+Black:400"
+      },
+      {
+        "css": "'AnonymousPro-Regular'",
+        "name": "AnonymousPro-Regular",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/AnonymousPro-Regular/font.ttf"
       }
     ],
     "uniqCompNum": 99,
     "versionPublish": "5.7.12",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/thawneyround-128x128.png",
-    "mbrsiteDomain": "o4o2vyuoua",
+    "mbrsiteDomain": "thawney",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -88,7 +94,10 @@
     "site_lang": "en",
     "screenshot": "screenshot.png",
     "modified": "2022-05-27T17:18:37.379Z",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "usedWebp": false,
+    "mbrsite": "mbrsite://%7B%22id%22%3A281435%2C%22domain%22%3A%22thawney.mobirisesite.com%22%7D",
     "cookiesAlertType": "1"
   },
   "pages": {
@@ -204,7 +213,7 @@
           },
           "_name": "image1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/000271640015-2-2000x3017.jpeg\" alt=\"Image: A picture of Robin Thorn in a tree. they are wearing yellow bee print dungarees and a red t-shirt. They have big curly hair and are wearing faux tortoise shel glasses with large round frames. They are smiling\">\n                    <p class=\"mbr-description mbr-fonts-style pt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\"></p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">About Me</h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        <br>Hi! My name is Robin Thorn but I'm better known online by the name Thawney. I like to think of myself as a jack of all trades and master of none but to try and concisely sum me up I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK! Whilst I may be young I have over seven years of experience in the theatre and music industries, have amassed a small following online and have achieved a few million streams on my musical projects (thanks so much to people like you who are interested in what I do).<br><br>Currently I am exploring more programming for music technology, video editing work and music production for various friends' projects.<br><br>They/Them<br><a href=\"projects.html\" class=\"text-danger\">Projects &gt;</a><br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/000271640015-2-2000x3017.jpeg\" alt=\"Image: A picture of Robin Thorn in a tree. they are wearing yellow bee print dungarees and a red t-shirt. They have big curly hair and are wearing faux tortoise shel glasses with large round frames. They are smiling\">\n                    <p class=\"mbr-description mbr-fonts-style pt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\"></p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">About Me</h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        <br>Hi! My name is Robin Thorn but I'm better known online by the name Thawney. I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK! Whilst I may be young I have over seven years of experience in the theatre and music industries, have amassed a small following online and have achieved a few million streams on my musical projects (thanks so much to people like you who are interested in what I do).<br><br>Currently I am exploring more programming for music technology, video editing work and music production for various friends' projects.<br><br>They/Them<br><a href=\"projects.html\" class=\"text-danger\">Projects &gt;</a><br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sZdp44hWAt",
           "_anchor": "image1-9",
           "_protectedParams": [],
