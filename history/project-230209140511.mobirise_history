@@ -31,8 +31,7 @@
       },
       "additionalSetColors": [
         "#f6f6f6",
-        "#ffc60a",
-        "#149dcc"
+        "#ffc60a"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -54,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Archivo+Black:400"
       }
     ],
-    "uniqCompNum": 99,
+    "uniqCompNum": 95,
     "versionPublish": "5.7.12",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/thawneyround-128x128.png",
@@ -63,33 +62,18 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "publishChangesOnly": true,
-    "cookiesAlert": {
-      "customDialogSelector": false,
-      "colorText": "#ffc60a",
-      "colorBg": "#232323",
-      "colorButton": "#ffc60a",
-      "rejectColor": "#ffffff",
-      "colorLink": "#e43f3f",
-      "underlineLink": true,
-      "opacityOverlay": "1",
-      "text": "I use cookies to give you the best experience as specified in the <a href='privacy.html'>cookie policy</a>. (I don't actually uses these for anything but my computer seems to make a cookie for this site so I'm letting you know!!!)",
-      "textButton": "Ok so true!!",
-      "rejectText": "REJECT"
-    },
-    "gdpr": {
-      "colorText": "#ffc60a",
-      "colorLink": "#e43f3f",
-      "underlineLink": true,
-      "text": " By continuing you agree to my <a href='terms.html'>Terms of Service</a> and <a href='privacy.html'>Privacy Policy</a>."
-    },
+    "publishChangesOnly": false,
+    "cookiesAlert": false,
+    "gdpr": false,
     "dppsSwitcher": true,
     "spellingSwitch": true,
     "site_lang": "en",
     "screenshot": "screenshot.png",
     "modified": "2022-05-27T17:18:37.379Z",
+    "publishType": "mbrsite",
+    "publishPath": "@PROJECT_PATH@",
     "usedWebp": false,
-    "cookiesAlertType": "1"
+    "mbrsite": "mbrsite://%7B%22id%22%3A281435%2C%22domain%22%3A%22thawney.mobirisesite.com%22%7D"
   },
   "pages": {
     "index.html": {
@@ -655,7 +639,7 @@
     "terms.html": {
       "settings": {
         "title": "Terms Of Use - Thawney",
-        "order": "4",
+        "order": "3",
         "meta_descr": "Hi I'm Thawney. I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK!",
         "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png"
       },
@@ -1130,7 +1114,7 @@
     "privacy.html": {
       "settings": {
         "title": "Privacy Policy - Thawney",
-        "order": "5",
+        "order": "4",
         "meta_descr": "Hi I'm Thawney. I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK!",
         "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png"
       },
@@ -1606,7 +1590,7 @@
     "projects.html": {
       "settings": {
         "title": "Projects - Thawney",
-        "order": "3",
+        "order": "2",
         "meta_descr": "Hi I'm Thawney. I'm a Nonbinary Musician, Programmer, Editor, Designer, Sound Technician and Creator from the UK!",
         "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png"
       },
@@ -2218,7 +2202,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png",
-        "order": "6"
+        "order": "5"
       },
       "components": [
         {
@@ -2727,7 +2711,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png",
-        "order": "2"
+        "order": "1"
       },
       "components": [
         {
@@ -3277,7 +3261,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png",
-        "order": "7"
+        "order": "6"
       },
       "components": [
         {
@@ -3786,7 +3770,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png",
-        "order": "9"
+        "order": "8"
       },
       "components": [
         {
@@ -4295,7 +4279,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/site-preview-image.png",
-        "order": "8"
+        "order": "7"
       },
       "components": [
         {
