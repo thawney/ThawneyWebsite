@@ -1046,15 +1046,9 @@ a {
 .cid-sYRAEweCad .mbr-section-title {
   color: #ffc60a;
 }
-.cid-sZdnb0Lzm5 {
-  padding-top: 2rem;
-  padding-bottom: 0rem;
-  background-color: #232323;
-}
-.cid-sZdnb0Lzm5 .mbr-section-subtitle {
-  color: #ffc60a;
-}
 .cid-sZdp44hWAt {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
   background-color: #232323;
 }
 @media (max-width: 991px) {
@@ -1078,6 +1072,99 @@ a {
 }
 .cid-sZdp44hWAt .mbr-description {
   color: #ffc60a;
+}
+.cid-u88igLrwKD {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background: #232323;
+}
+.cid-u88igLrwKD .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u88igLrwKD .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u88igLrwKD .team-card {
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+.cid-u88igLrwKD .team-card:hover {
+  transform: translateY(-10px);
+}
+.cid-u88igLrwKD .item-wrapper {
+  background: #232323;
+  border-radius: 4px;
+}
+@media (max-width: 991px) {
+  .cid-u88igLrwKD .item-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-u88igLrwKD .item-wrapper .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .cid-u88igLrwKD .item-wrapper .content-wrap {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-u88igLrwKD .item-wrapper .content-wrap {
+    padding: 1rem;
+  }
+}
+.cid-u88igLrwKD .social-row {
+  text-align: center;
+}
+.cid-u88igLrwKD .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #ffc60a;
+  transition: all 0.3s;
+}
+.cid-u88igLrwKD .social-row .soc-item .mbr-iconfont {
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #ffc60a;
+  font-size: 1.5rem;
+}
+.cid-u88igLrwKD .social-row .soc-item:hover {
+  background-color: #ffc60a;
+}
+.cid-u88igLrwKD .social-row .soc-item:hover .mbr-iconfont {
+  color: #000000;
+}
+.cid-u88igLrwKD .card-title,
+.cid-u88igLrwKD .social-row {
+  color: #ffc60a;
+}
+.cid-u88igLrwKD .card-text,
+.cid-u88igLrwKD .mbr-section-btn,
+.cid-u88igLrwKD .social-row {
+  color: #ffc60a;
+}
+.cid-u88igLrwKD .mbr-section-title {
+  color: #ffc60a;
+}
+.cid-u88igLrwKD .mbr-role,
+.cid-u88igLrwKD .social-row {
+  color: #ffc60a;
+}
+.cid-u88igLrwKD .mbr-section-subtitle {
+  color: #ffc60a;
+  text-align: center;
 }
 .cid-tteIA2NhAN {
   padding-top: 30px;
